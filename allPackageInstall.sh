@@ -4,13 +4,13 @@ cd /usr/bin/anaconda/bin/
 
 export PATH=/usr/bin/anaconda/bin:$PATH
 
-conda update -y matplotlib
+conda update matplotlib
 
 conda install -c conda-forge tensorflow
 
-conda install -y dask
+conda install dask
 
-pip install -y edward
+pip install edward
 
 
 
